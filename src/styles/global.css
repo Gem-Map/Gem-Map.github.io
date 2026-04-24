@@ -33,7 +33,7 @@
 
 @layer base {
   :root {
-    --background: #FAFAF6; /* surfaceLevel1 */
+    --background: #FFFFFF;
     --foreground: #101014; /* textLevel1 */
     --muted: #818387;
     --accent: #00BFC2; /* primary40 */
