@@ -28,17 +28,17 @@ const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_ID;
 		)}
 	</head>
 
-	<body class="bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
+	<body class="bg-surface-1 dark:bg-gray-0 transition-colors duration-300">
 		<Header />
-		<main class="mx-auto max-w-4xl px-6 py-12 lg:px-8">
+		<main class="mx-auto max-w-4xl px-6 py-16 lg:px-8">
 			<article class="gem-card !p-0 overflow-hidden border-none shadow-none bg-transparent dark:bg-transparent">
-				<div class="w-full aspect-[2/1] overflow-hidden rounded-2xl mb-8 shadow-xl">
+				<div class="w-full aspect-[2/1] overflow-hidden rounded-3xl mb-12 shadow-2xl">
 					{heroImage && <Image width={1020} height={510} src={heroImage} alt="" class="w-full h-full object-cover" />}
 				</div>
 				
 				<div class="px-4 sm:px-0">
-					<header class="text-center mb-12">
-						<div class="flex items-center justify-center gap-x-4 text-sm text-slate-500 dark:text-slate-400 mb-4">
+					<header class="text-center mb-16">
+						<div class="flex items-center justify-center gap-x-4 text-sm font-medium text-gray-50 dark:text-gray-90 mb-6">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
@@ -48,13 +48,13 @@ const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_ID;
 								)
 							}
 						</div>
-						<h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl dark:text-white mb-6">
+						<h1 class="text-4xl font-black tracking-tight text-gray-0 sm:text-6xl dark:text-white mb-8 leading-tight">
 							{title}
 						</h1>
 						{tags && (
-							<div class="flex flex-wrap justify-center gap-2">
+							<div class="flex flex-wrap justify-center gap-3">
 								{tags.map(tag => (
-									<span class="rounded-full bg-indigo-50 px-3 py-1 text-sm font-medium text-indigo-600 dark:bg-teal-900/30 dark:text-teal-400">
+									<span class="gem-tag !text-sm !px-4 !py-1.5">
 										#{tag}
 									</span>
 								))}
@@ -63,15 +63,16 @@ const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_ID;
 					</header>
 
 					<div class="prose prose-slate prose-indigo dark:prose-invert lg:prose-xl mx-auto
-						prose-headings:font-bold prose-a:text-indigo-primary dark:prose-a:text-teal-accent
-						prose-pre:rounded-xl prose-img:rounded-xl">
+						prose-headings:font-black prose-headings:tracking-tight
+						prose-a:text-primary-40 dark:prose-a:text-secondary-40
+						prose-pre:rounded-2xl prose-img:rounded-2xl prose-strong:text-gray-0 dark:prose-strong:text-white">
 						<slot />
 					</div>
 
-					<footer class="mt-16 pt-8 border-t border-slate-200 dark:border-slate-800 text-center">
-						<div class="flex flex-col items-center gap-4">
-							<p class="text-sm text-slate-500 dark:text-slate-400">실시간 방문자 수</p>
-							<img src={`https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=${encodeURIComponent(Astro.url.href)}&count_bg=%236366F1&title_bg=%2314B8A6&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false`} alt="Hits" />
+					<footer class="mt-20 pt-10 border-t border-gray-90/30 dark:border-gray-10/50 text-center">
+						<div class="flex flex-col items-center gap-6">
+							<p class="text-sm font-bold text-gray-50 dark:text-gray-90 uppercase tracking-widest">Real-time Hits</p>
+							<img src={`https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=${encodeURIComponent(Astro.url.href)}&count_bg=%2300BFC2&title_bg=%23101014&icon=&icon_color=%23E7E7E7&title=Gemmap&edge_flat=false`} alt="Hits" class="h-8" />
 						</div>
 					</footer>
 				</div>

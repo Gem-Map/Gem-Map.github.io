@@ -1,5 +1,5 @@
 ---
-import type { HTMLAttributes } from 'astro/types';
+import type { HTMLAttributes } from 'astro:types';
 
 type Props = HTMLAttributes<'a'>;
 
@@ -13,8 +13,8 @@ const isActive = href === pathname || href === '/' + (subpath?.[0] || '');
 	href={href} 
 	class:list={[
 		className, 
-		"inline-block no-underline transition-colors",
-		{ "font-bold border-b-2 border-indigo-primary dark:border-teal-accent text-indigo-primary dark:text-teal-accent": isActive }
+		"inline-block no-underline transition-all duration-200",
+		{ "font-black border-b-2 border-primary-40 text-primary-40 dark:border-secondary-40 dark:text-secondary-40": isActive }
 	]} 
 	{...props}
 >

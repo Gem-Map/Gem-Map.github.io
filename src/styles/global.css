@@ -1,27 +1,49 @@
 @import "tailwindcss";
 
 @theme {
-  --color-indigo-primary: #6366f1;
-  --color-teal-accent: #14b8a6;
+  /* Primary & Secondary Brand Colors */
+  --color-primary-20: #ACE3E5;
+  --color-primary-40: #00BFC2;
+  --color-primary-60: #00B0B2;
+  --color-primary-80: #00A1A1;
+  --color-primary-100: #008380;
+  
+  --color-secondary-20: #B3EFD5;
+  --color-secondary-40: #00DB9D;
+  --color-secondary-60: #00D286;
+  --color-secondary-80: #00B766;
+  --color-secondary-100: #00924B;
+
+  /* Grayscale */
+  --color-gray-0: #101014;
+  --color-gray-10: #27272B;
+  --color-gray-50: #818387;
+  --color-gray-90: #DDDFE5;
+  --color-gray-95: #E5E8EE;
+  --color-gray-99: #F2F3F8;
+  --color-gray-100: #FAFAFA;
+
+  /* Surface */
+  --color-surface-1: #FAFAF6;
+  --color-surface-2: #F2F3F8;
+  --color-surface-3: #E5E8EE;
   
   --font-atkinson: "Atkinson", sans-serif;
 }
 
 @layer base {
   :root {
-    --background: #ffffff;
-    --foreground: #1f2937;
-    --muted: #6b7280;
-    --accent: #6366f1;
-    --accent-foreground: #ffffff;
+    --background: #FAFAF6; /* surfaceLevel1 */
+    --foreground: #101014; /* textLevel1 */
+    --muted: #818387;
+    --accent: #00BFC2; /* primary40 */
   }
 
   .dark {
-    --background: #0f172a;
-    --foreground: #f8fafc;
-    --muted: #94a3b8;
-    --accent: #14b8a6;
-    --accent-foreground: #0f172a;
+    --background: #101014; /* grayScale0 */
+    --foreground: #FAFAFA; /* grayScale100 */
+    --muted: #97999E;
+    --accent: #00DB9D; /* secondary40 */
   }
 
   body {
@@ -31,14 +53,18 @@
 
 @layer components {
   .gem-card {
-    @apply relative overflow-hidden rounded-xl border border-slate-200 bg-white p-6 transition-all hover:shadow-lg dark:border-slate-800 dark:bg-slate-900;
+    @apply relative overflow-hidden rounded-2xl border border-gray-90/30 bg-white p-6 transition-all hover:shadow-xl dark:border-gray-10/50 dark:bg-gray-10;
   }
   
   .gem-gradient-text {
-    @apply bg-gradient-to-r from-indigo-primary to-teal-accent bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-40 to-secondary-40 bg-clip-text text-transparent font-bold;
   }
   
   .gem-btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-indigo-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-teal-accent dark:text-slate-900 dark:hover:bg-teal-500;
+    @apply inline-flex items-center justify-center rounded-xl bg-primary-40 px-6 py-3 text-sm font-bold text-white transition-all hover:scale-105 active:bg-primary-60 focus:outline-none focus:ring-2 focus:ring-primary-40 focus:ring-offset-2 dark:bg-secondary-40 dark:text-gray-0 dark:hover:bg-secondary-60;
+  }
+
+  .gem-tag {
+    @apply rounded-full bg-primary-20/20 px-3 py-1 text-xs font-semibold text-primary-100 dark:bg-secondary-20/10 dark:text-secondary-40;
   }
 }
