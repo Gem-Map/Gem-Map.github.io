@@ -1,0 +1,72 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body class="bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
+		<Header />
+		<main class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+			<section class="text-center mb-16">
+				<h1 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl dark:text-white">
+					<span class="gem-gradient-text">Gem있는 Writing</span>
+				</h1>
+				<p class="mt-6 text-lg leading-8 text-slate-600 dark:text-slate-400">
+					{SITE_DESCRIPTION}
+				</p>
+			</section>
+
+			<section>
+				<h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-8">최근 게시글</h2>
+				<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 list-none p-0">
+					{
+						posts.map((post) => (
+							<li class="p-0">
+								<a href={`/blog/${post.id}/`} class="block group no-underline">
+									<article class="gem-card h-full flex flex-col">
+										<div class="aspect-video w-full overflow-hidden rounded-lg mb-4 bg-slate-100 dark:bg-slate-800">
+											<img 
+												src={post.data.heroImage} 
+												alt="" 
+												class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+											/>
+										</div>
+										<div class="flex-1 flex flex-col">
+											<div class="flex items-center gap-x-4 text-xs mb-3">
+												<FormattedDate date={post.data.pubDate} class="text-slate-500 dark:text-slate-400" />
+												{post.data.tags && post.data.tags.map(tag => (
+													<span class="relative z-10 rounded-full bg-indigo-50 px-3 py-1.5 font-medium text-indigo-600 dark:bg-teal-900/30 dark:text-teal-400">
+														{tag}
+													</span>
+												))}
+											</div>
+											<h3 class="text-xl font-semibold text-slate-900 dark:text-white mb-2 group-hover:text-indigo-primary dark:group-hover:text-teal-accent transition-colors">
+												{post.data.title}
+											</h3>
+											<p class="text-sm text-slate-600 dark:text-slate-400 line-clamp-2">
+												{post.data.description}
+											</p>
+										</div>
+									</article>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

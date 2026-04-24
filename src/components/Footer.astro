@@ -1,0 +1,44 @@
+---
+const today = new Date();
+---
+
+<footer class="border-t border-slate-200 bg-slate-50 dark:border-slate-800 dark:bg-slate-950">
+	<div class="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+		<div class="xl:grid xl:grid-cols-3 xl:gap-8">
+			<div class="space-y-8">
+				<a href="/" class="text-xl font-bold tracking-tight">
+					<span class="gem-gradient-text">Gem있는 Writing</span>
+				</a>
+				<p class="text-sm leading-6 text-slate-600 dark:text-slate-400">
+					보석처럼 빛나는 사이드 프로젝트 팀 블로그. 우리의 여정과 기록을 담습니다.
+				</p>
+			</div>
+			<div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+				<div class="md:grid md:grid-cols-1 md:gap-8">
+					<div>
+						<h3 class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100">Our Services</h3>
+						<div class="mt-6 flex flex-col gap-4">
+							<div class="flex items-center gap-x-4">
+								<div class="h-10 w-32 rounded bg-slate-200 dark:bg-slate-800 animate-pulse flex items-center justify-center text-[10px] text-slate-400">Play Store Badge</div>
+								<div class="h-10 w-32 rounded bg-slate-200 dark:bg-slate-800 animate-pulse flex items-center justify-center text-[10px] text-slate-400">App Store Badge</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="md:grid md:grid-cols-1 md:gap-8">
+					<div>
+						<h3 class="text-sm font-semibold leading-6 text-slate-900 dark:text-slate-100">Connect</h3>
+						<ul role="list" class="mt-6 space-y-4">
+							<li>
+								<a href="https://github.com/Gem-Map" class="text-sm leading-6 text-slate-600 hover:text-indigo-primary dark:text-slate-400 dark:hover:text-teal-accent">GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mt-16 border-t border-slate-200 pt-8 sm:mt-20 lg:mt-24 dark:border-slate-800">
+			<p class="text-xs leading-5 text-slate-500 dark:text-slate-400">&copy; {today.getFullYear()} Gem-Map Team. All rights reserved.</p>
+		</div>
+	</div>
+</footer>
