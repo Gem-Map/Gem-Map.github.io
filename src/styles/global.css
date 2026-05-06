@@ -2,6 +2,9 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
+  /* Typography Configuration for v4 */
+  --font-atkinson: "Atkinson", sans-serif;
+  
   /* Primary & Secondary Brand Colors */
   --color-primary-20: #ACE3E5;
   --color-primary-40: #00BFC2;
