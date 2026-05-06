@@ -5,13 +5,14 @@ pubDate: 'May 06 2026'
 heroImage: '../../assets/thumbnail_1week_joohyeong.png'
 tags: []
 ---
-원글: https://velog.io/write?id=5e9c65ee-6db8-4b63-9153-ce46a1573160
+
+[원글](https://velog.io/write?id=5e9c65ee-6db8-4b63-9153-ce46a1573160)
 
 ## 불안하지 않으신가요?
 
 글 쓰는 시점의 Velog의 최상위 트랜딩 글입니다.
 
-[](https://velog.velcdn.com/images/rhkrwngud445/post/96a88d91-0d77-488c-be35-951209f3f19a/image.png)
+![](https://velog.velcdn.com/images/rhkrwngud445/post/96a88d91-0d77-488c-be35-951209f3f19a/image.png)
 
 모두 AI 관련 이야기입니다. Velog 뿐만 아니라, 세계가 AI를 어떻게 쓸지 고민하고 더 나은 방법을 위해 행동을 합니다. 그렇게 AI 이야기들이 또 쏟아집니다.
 
