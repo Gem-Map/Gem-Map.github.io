@@ -1,17 +1,91 @@
 ---
-title: 'First post'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
-heroImage: '../../assets/blog-placeholder-3.jpg'
-tags: ['Astro', 'Gem', 'Writing']
+title: '불안하지 않으신가요?'
+description: ''
+pubDate: 'May 06 2026'
+heroImage: '../../assets/thumbnail_1week_joohyeong.png'
+tags: []
 ---
+원글: https://velog.io/write?id=5e9c65ee-6db8-4b63-9153-ce46a1573160
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+## 불안하지 않으신가요?
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+글 쓰는 시점의 Velog의 최상위 트랜딩 글입니다.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+[](https://velog.velcdn.com/images/rhkrwngud445/post/96a88d91-0d77-488c-be35-951209f3f19a/image.png)
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+모두 AI 관련 이야기입니다. Velog 뿐만 아니라, 세계가 AI를 어떻게 쓸지 고민하고 더 나은 방법을 위해 행동을 합니다. 그렇게 AI 이야기들이 또 쏟아집니다.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+불안해집니다. 2023년에 Chat GPT를 필두로, 2024년은 코딩에 쓸만한 코드 블럭들을 쏟아내고, 2025년에는 Agent, MCP, 2026년에는 하네스까지 기존 개발 공부에 AI 변화를 얹어 모두 따라가기란 쉽지 않습니다.
+
+허둥지둥하는 사이 인터넷 아티클과 뉴스는 불안을 조장하는 글들을 쏟아냅니다.
+"AI가 다 한다", "미국에서 인력 AI에 대체되었다", "화이트 칼라 직업은 없어질 것이다"
+불안감이 막연해집니다. 그럼에도 고민의 결론을 내리기는 어렵습니다. AI는 실제로 유의미한 속도 차이를 내고 있으니까요.
+
+## 불안감을 다루기
+
+불안해졌습니다. 이제 무엇을 할 수 있을까요? 불안감을 낮추기 위해 생각을 비울 수도, 잠시 어딘가에 접어둘 수도 있겠습니다.
+하지만 이 '불안감'은 안 좋은 것일까요?
+
+개발자라는 직업을 가지기까지 도태되는 것을 항상 경계했습니다. 옛날의 습관과 생각 그리고 기술까지 좋고 새로운 것을 받아들이기 위해 스트레스를 가지며 노력해 왔습니다. 그 동기는 불안감에 있었습니다. 불안감이 성장 동기였던 셈입니다.
+
+때론 많은 불안감에 컨디션 난조 등 신체적인 영향도 있었습니다. 이 상황에서는 아무것도 안 하는 것만 못하더군요.
+'불안감'이란 단어를 몸소 곱씹어보며 나에게 맞는 단어로 재정의하였습니다.
+
+### 나의 '불안감' 재정의
+
+좋은 것도 안좋은 것도 아닙니다. 도태되지 않고 장기적으로 돌아봤을 때 행복할 만큼 불안감을 가집니다.
+
+### 그리고 나의 액션
+
+불안감을 재정의하였으니, AI에 도태되지 않을 액션을 취해야 했습니다.
+크게 3가지를 했습니다.
+
+> AI 관련 아티클 무제한 소비
+> 
+
+> 빠르게 사용해 보기
+> 
+
+> 최악의 상황에 대한 최소한 대비
+> 
+
+## AI에 대한 내 생각
+
+불안감을 재정의했지만, 불안감의 근거 자체가 사라진 건 아닙니다. AI를 사용해 보고 관련 정보들을 접해본 결과, 실제 만들어내는 코드의 양과 그 속도는 3배 이상 빨라졌습니다. 그리고 LLM을 통해 할 수 있는 것들도 많아졌습니다.
+돈만 있다면 비행기도 만들 수 있을 것 같습니다. 그만큼 막연한 작업을 실행할 수 있기까지 큰 도움이 되었습니다.
+
+하지만 AI와 함께 제가 비행기를 만들면 타시겠습니까? 비행기에 대해 질문하면 AI의 답변을 인용할 것입니다. 양보해서 비행기를 탔는데, 문제가 생기면 어떨까요? 그 책임은 누구한테 있을까요? AI 제작사?, 비행기 제작을 주관한 나? AI와 함께 만든 비행기에 탑승한 탑승객?
+
+"비행기를 탑승한 탑승객에게 무슨 잘못이 있어?"라고 물으신다면 미국행 비행기 티켓이 3만원이라는 전제를 추가하겠습니다.
+
+여전히 책임의 딜레마가 있습니다. 책임의 주체와 인식에 변화가 있다면, AGI가 올지도 모르겠습니다. 하지만 적어도, 그전까지 책임의 주체인 사람의 역할은 유효할 것으로 생각됩니다.
+
+## 앞으로의 나는
+
+### 책임을 잘 질 수 있는 사람이 되기
+
+여전히 사람이 책임이 있듯, 책임질 수 있는 사람이 되어야겠습니다.
+그런데 '책임'을 지려면 직책 외에 어떤 능력이 필요할까요? AI에 한 번 질문했습니다.
+
+> 1. 메타인지와 상황 판단력 (Assessment)
+2. 문제 해결 능력 (Problem Solving)
+3. 감정 조절 및 회복탄력성 (Resilience)
+4. 커뮤니케이션 능력 (Communication)
+5. 완결성 (Ownership)
+> 
+
+모두 중요한 내용입니다. 특히 2, 5번이 중요해 보입니다. 현재 상황과 미래 계획에 우선순위를 정하여 위 능력들을 키워봐야겠습니다.
+
+### Taste의 경쟁력을 가지려고 합니다.
+
+많은 프로덕트를 만들기 쉬워진 시대입니다. 영상, 이미지, 제품 그 모든 것이 허들이 차츰 낮아지고 있습니다. 하지만 AI로 만들어진 제품 중 아직 이목을 끌고 있는 제품은 많이 없습니다. 사람들이 정말 좋아하는 제품을 만들어야겠습니다. 한때 MLP (Minimum Lovable Product)라고 불리더군요. 사랑받는 제품을 위한 노력과 능력을 내재화해 보려고 합니다.
+
+### 마지막으로 적당한 불안감을 유지하려고 합니다.
+
+빠른 변화가 일어나고 있습니다. 서두에 이야기했듯 큰 변화가 단기간에 일어나고 있습니다. 중요한 가치는 변하지 않지만, 도태되기 쉬운 환경입니다. 개발자 입장에서 많은 기술 변화가 있었습니다. 결국 현재 좋은 기술이 어떤 장점을 가지고 이전 어떤 문제를 해결하고 있는지 알고 있는 것은 큰 힘입니다. 그런 맥락에서라도 적당한 불안감을 유지하여 트랜드를 따라가 보려고 합니다.
+
+## 마지막으로
+
+적당하게 불안하며, 많이 행복하세요.
+
+[흔들리며 갑니다 [다큐멘터리 3일]](https://youtu.be/HFRrWgtSy6w?si=b9d8PJY2zWs9zql2)
