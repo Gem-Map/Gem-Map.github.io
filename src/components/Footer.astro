@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SUPPORT_EMAIL } from '../consts';
 const today = new Date();
 ---
 
@@ -37,6 +37,11 @@ const today = new Date();
 							<li>
 								<a href="/rss.xml" class="text-sm leading-6 text-gray-50 hover:text-primary-40 dark:text-gray-90 dark:hover:text-secondary-40 transition-colors">RSS Feed</a>
 							</li>
+							{SUPPORT_EMAIL && (
+								<li>
+									<a href={`mailto:${SUPPORT_EMAIL}`} class="text-sm leading-6 text-gray-50 hover:text-primary-40 dark:text-gray-90 dark:hover:text-secondary-40 transition-colors">문의 및 지원</a>
+								</li>
+							)}
 						</ul>
 					</div>
 				</div>
